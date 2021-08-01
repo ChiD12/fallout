@@ -2,6 +2,8 @@
 
 Backend that stores vaultdwellers as well as keeps track of their familly heritage, age, whether they are deceased or not and various physical atributes
 
+[Live Demo](https://falloutshelter.herokuapp.com/)
+
 ### `npm install`
 to install dependancies
 
@@ -15,6 +17,8 @@ Routes(Endpoints) &#8594; Service(Business Logic) &#8594; Repo(Database Calls)
 
 ### `/create`
 post endpoint used to enter a new vault-dweller, must include some parameters in body
+
+
 #### Required Parameters
 `name: string`
 `eye-color: string`
